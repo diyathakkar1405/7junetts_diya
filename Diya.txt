@@ -1,0 +1,269 @@
+q.1-what are the benefits of using css?
+-->css is a cascading style sheets
+-->css handles the look and feel part of a web page.
+-->css used to make beautiful webpages.
+-->using,cssyou can control the color of the text,the style of fonts,the spacing between paragraph,
+how coloums are sized and laidout etc.
+-->css saves time you can write css once and then reucee the same sheet in multiple HTML  pages.
+
+q.2-what are the disadvantages of css?
+-->with css,what works one browser might not
+always work with another browser.
+-->There are existance of scarcity of security.
+-->There might br cross-browser issues while using css.
+-->There are multipale levels which create confusion for non-devloper and begginers.
+-->css,css1and css3 create confusion among.
+
+q.3-what is diffrent between css2 and css3?
+-->unlike css2,which was comprised of a single document,css3 has its specifications divided into many individual modules , which makes css3 a whole lot easier to handle.
+-->css3,the designers can now use  special fonts,like those available in.
+-->css3 came up with some key web design considerations like rounded borders that help 
+in rounding up the borders without any hassle.
+-->css3 has the capability to split text sections into multiple columns so that it can be read like a newspaper .In css2, the developers had difficulty because the standard was not equipped with Automatically breaking the text so that it fits within a box.
+
+q.4-Name a few CSS style style components.
+-->components of css style are:-
+
+-->selector html:-element name,id name,class name
+(1)universal selector selector all element of the document .
+example-*{color:yellow;}
+
+-->2Type selector select all element that have the given mode name.
+  Example-a{color:orange;}
+
+-->3 class selector select all the element that have given class attribute.
+Example-.class1{color:red;}
+  -><pclass="text1">hiii
+world</p>.
+
+-->4 ID selector matches the element based on
+     the valuebof element name in id attribute.
+     Example:->#demo1{color:purple;}
+        -><p class="class1">text
+
+
+-->5Attribute selector matches  element based on presence of the value given.
+Example->p[title] {color:green;}/*<a>
+
+elements with a title attribute */
+
+-> a[href="https://example.org"]{
+color:blue;}<a>elements with an href matching
+"https://example.org"
+
+      ---> a[href*="example"]{color:red}
+
+/*<a>elements with an href containing "example"*/
+  
+ ->a[href$=."org"]{color:mint green;}/*<a>
+elements with an hrefending."org"*/
+ 
+-->a[class~="logo"]{color:blue;}
+<a>elements whose class attribute cointains the word 
+
+"logo"*/
+
+-->2)property:It's like an attribute such as 
+background color,font-size,position,text-align,color,border etc.
+
+-->3)values:which defines property or values allocate for properties.
+
+q.5-What do you understand by css opacity?
+-->opacity CSS property sets the opacity of the element .opacity is content behind an element is hidden,and is the opposite transperancy.
+ 
+EXAMPLE:->.light{
+opacity:.02;/*Barely see the text over the background*/
+}
+.medium{
+opacity :0.5;/*see the text more clearly over the background*/
+}
+.heavy{
+opacity :0.9;/*see the text more clearly over the background*/
+}
+
+
+q.6-how can the background color of the element can be change?
+-->background color of element can be changed by style background color property 
+Example-><pp style="background-color=red">hi</p>
+
+or 
+-><style>.bg{background-color:
+red;}
+</style>
+<body><div class=."bg">text</div>
+
+
+q.7-How can image repitition of the backup be controlled?
+-->To control the reptition of an image in thebback ground,use the background -repeat property.You can use no-repeat value for the value for the back ground-repeat property if you do not want to repeat an image,In this case ,the image will display only once 
+Example->/*body{
+background-image:url
+(*/css/images/css.jpg");
+ background-repeat:repeat;
+}*/
+
+for stop repetition->body{
+background-image:url
+
+(*/css/images/css.jpg");
+ background-repeat:no repeat;
+}
+
+q.8-what is the use of background position property?
+-->The background position property sets the starting position of a background image.By default,a background image is placed t top-left corner of an element ,and repeated both vertically and horizontally Example=body{
+background-image:url('pic.jpg')
+
+
+q-9 Which property controls the image scroll in the background?
+-->To set image scroll background attachment property is used 
+-->background -attachment property sets whether a background image scroll with the rest of the page ,or is fixed.
+
+-->value description
+
+1[scroll] the bckground image will scroll
+with the page . this is default 
+
+2[fixed]the bckground image will not scroll
+with the page
+
+3[local]the bckground image will scroll
+with the element's contents
+
+4[initial] sets this property to its default value.
+
+5[inherit] Inherits this property from its parent element.
+
+Example->body{background-attachment:fixed;}
+
+q-10 why should background and color be used as seprate properties?
+-->There are two reasons behind this:it enchances the legibility of stylesheets.The background property is a complex property in css , and if it is combined with color , the complexity will further increases.
+
+q-11 How to center block elements using css1?
+-->To horizontally center a block element (like <div>), use margin: auto; Setting the width of the element will prevent it from stretching out to the edges of its container.
+-->set left margin and right margin to element is auto
+Example->element{
+width:200px;
+margin:auto;
+}
+
+Example-><style>#box{text-align:center;
+width:300px;margin:10 rem auto;{
+<body><div id="box"><h2>hello
+
+worl</h2>
+</div></body>
+
+q.12 How to maintain the css specification?
+
+q.13 What are the ways to integrate CSS as a web page?
+-->CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML elements. Internal - by using a <style> element in the <head> section.
+External - by using a<link> element to link to an external CSS file.
+
+q.14 What is embaled style sheets?
+-->Embedded stylesheet : It allows you to define styles for a particular HTML document as a whole in one place.This is done by embedding the<style></style> tags containing the css properties in the head of ypur document.
+Example-><head><style>h1{color:yellow;}p
+{color:blue;font-size:10pt;}
+<body><h1>hello</h1><p>
+
+
+q.15-What are the external style sheets?
+-->External style sheet is a seprate file linked to an HTML web page.It comes with a css filename extension Example-><head><link rel="stylesheet"
+type="text/css href="style.css'></head>
+
+q.16-What are the advantages and disadvantages of using external style sheets?
+-->advantages:-
+.Style of a few documents can be controlled from the site by utilizing them.
+.HTML elements can have numerous documents,where classes can be made.
+.STyles in complex circumstances,se;ector an grouping strategies are utilized.
+-->disadvantages:-
+.Additional download is expected to import documents having style information.
+.The documents,the outer template ought to be stacked.
+.not practical for small style definitions.
+
+q.17-What is the meaning of the css selector?
+-->css selector is the first part of a css rule.is a pattern of elements and other terms tell the browser which HTML elements should be selected to have the css property vlues inside the rule applied to them.
+
+q.18-what are the media types allowed by css?
+-->most imp feature of style sheet is that specify how a document is to be presented on diffrent media :on the screen ,on paper,with a speech synthesizer ,witha braille device,etc.we have currently two ways to specify media dependenciesfor style-sheets
+specify the target medium from a style sheet with the @media or @import at-rules.
+specify the target medium within the document
+language.
+
+all-> suitable for all devices.
+
+aural-> intended for speeech synthesizers
+
+braille->intended for braille tactile feedback devices.
+
+embossed->intended for page brailleprinters.
+
+handheld->intended for handheld devices 
+(typically small screen,monochrome ,limited
+
+Example-><styletyle="text/css">
+<!-
+@media print{
+body{font-size:10pt}
+
+@media screen{
+body{font-size:12pt}
+
+@media screen, print{
+body{line-height:1.2pt}
+
+->
+</style>
+
+q.19-what is the rule set?
+-->css rule  set afirmations to various pieces or elements of the document. objective is apply of bunch of properties for certain distinct qualities to a solitary , or a particular arraangement of components in connected HTML PAGES
+
+--->a.selector<body>
+b.declaration block {
+ i declaration<style>
+
+ 1-property color:
+2- value black;
+}
+
+q.20-How to maintain the css specifications?
+--> It is maintained by the WORLD WEB CONSORTIUM (W3C).The rules created for css by w3c.
+
+
+
+q.21-create layout
+--> <!<doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatiable conten="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>layout</title>
+<style>
+.grid{
+display:grid;
+grid-template-columns:70%30%;
+/*grid-column-gap:1em;
+grid-row-gap:1em;
+grid-gap:1em;*/
+}
+.grid>div{
+background:#eee;
+padding:1em;
+}
+.grid>div:nth-child(odd){
+background:#ddd;
+}
+</style>
+</head>
+<body>
+<div class="grid">
+<div>lorem ipsum dolor sit amet consectetur adipisicing elit.natus hic commodi ipsum dignissimos, velit inventore explicabo porro impedit cupiditate officiis vero quod cuplvoluptatum velitaque debitis saepe.</div>
+
+<div>lorem ipsum dolor sit amet consectetur adipisicing elit.natus hic commodi ipsum dignissimos, velit inventore explicabo porro impedit cupiditate officiis vero quod cuplvoluptatum velitaque debitis saepe.</div>
+
+<!-<div>text</div>->
+
+</div>
+
+</body>
+
+</html>
