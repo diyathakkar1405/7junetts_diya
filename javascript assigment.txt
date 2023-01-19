@@ -1,0 +1,66 @@
+1. WHAT IS JAVASCRIPT?
+-JavaScript is used by programmers across the world to create dynamic and interactive web content like applications and browsers.
+ JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites.
+
+2. What is the use of isNaN function?
+-isNaN() is a function property of the global object. For number values, isNaN() tests if the number is the value NaN . When the argument to the isNaN() 
+function is not of type Number, the value is first coerced to a number, and the resulting value is then compared against NaN.
+
+3.What is negative infinity?
+- a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative
+ value greater than the largest representable number in JavaScript.
+
+4.which company developed javascript?
+- Netscape Communications Corporation develop javascript.
+
+5.what are undeclared and undefined variables?
+-Undeclared − It occurs when a variable which hasn't been declared using var, let or const is being tried to access.
+ Undefined − It occurs when a variable has been declared using var, let or const but isn't given a value.
+
+6.write the code for adding new elements dynamically?
+- document. createElement("<tagName>"); // Where <tagName> can be any HTML // tagName like div, ul, button, etc.
+  newDiv element has been created For Eg: let newDiv = document. createElement("div")
+
+7. what is the diffrence between viewstate and sessionstate?
+-The basic difference between these two is that the ViewState is to manage state at the client's end,
+ making state management easy for end-user while SessionState manages state at the server's end.
+
+8. what is === opreator?
+- comparison operators.
+
+9. how can the style/class of an element be changed ?
+- getElementById() method is used to return the element in the document with the “id” attribute
+ and the “className” attribute can be used to change/append the class of the element.
+
+10. how to read and write a file using javascript?
+-  The writeFile() functions is used for writing operations.
+The readFile() functions is used for reading operation.
+
+11. what are all the looping structures in javascript ?
+- JavaScript supports different kinds of loops:
+  >for - loops through a block of code a number of times.
+  >for/in - loops through the properties of an object.
+  >for/of - loops through the values of an iterable object.
+  >while - loops through a block of code while a specified condition is true.
+
+12. how can you convert the string of any base to uninterger in javascript ?
+- parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. 
+
+13. what is the function of the delete operator ?
+- The delete operator removes a property from an object.
+
+14. what are all the types of pop-up boxes available in javascript ?
+- JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+15. what is the use of void(0) ?
+- void(0) means, do nothing - don't reload, don't navigate, do not run any code.
+
+16. how can a page be forced to load another page in javascript ?
+-  We can use window. location property inside the script tag to forcefully load another page in Javascript. 
+
+17. what are the disadvantages of using inner html in javascript ?
+-Can break the document: There is no proper validation provided by innerHTML, so any valid HTML code can be used.
+
+
+
+
